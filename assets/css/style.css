@@ -1,0 +1,21 @@
+#title-box {
+    background-color: peru;
+    font-size: 220%;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+
+#game-rules {
+    width: 500px;
+    background: lightgoldenrodyellow;
+    font-size: 150%;
+}
+
+#randomBox {
+    background: lightseagreen;
+}
+
+.score-wins {
+    font-size: 100%;
+}
