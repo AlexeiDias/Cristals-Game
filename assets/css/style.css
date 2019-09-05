@@ -1,4 +1,8 @@
-#title-box {
+body {
+    width: 100%;
+}
+
+/* #title-box {
     background-color: peru;
     font-size: 220%;
     width: 250px;
@@ -13,9 +17,40 @@
 }
 
 #randomBox {
-    background: lightseagreen;
+    background: lightgreen;
+    width: 200px;
+    height: 200px;
+    font-size: 400%;
 }
 
+
+
 .score-wins {
+    
     font-size: 100%;
 }
+
+#scoreBox {
+    
+    width: 200px;
+    height: 110px;;
+    background: lightskyblue;
+    font-size: 200%;
+}
+
+.score-count {
+    width: 300px;
+    
+    background: lightseagreen;
+    font-size: 700%;
+}
+
+#crystal-box {
+    
+    width: 700px;
+}
+
+button {
+    
+    font-size: 80%;
+} */

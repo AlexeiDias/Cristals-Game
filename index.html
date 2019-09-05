@@ -6,40 +6,83 @@
   <title>Cristals Collector!</title>
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div id="title-box">
-      <h1>Cristal Collector</h1>
-    </div>
-    <div id="game-rules">
-      <p>You will be given a random number at the start of the game.</p> <br>
-      <p> There are four cristals bellow. By clicking on a crystal you will add a specific amount of points to your total score.</p> <br>
-      <p> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p><br>
-      <p> The value of each crystal is hidden from you until you click on it.</p><br>
-      <p> Each time when the game starts, the game will change the values of each crystal.</p>
-    </div>
-    <div id="randomBox">
-      <p id="randomNum"></p>
-    </div>
-    <div id="scoreBox">
-      <h2 clas="score-wins">Wins:<span id="win-text"></span></h2>
-      
-      <h2 clas="score-losses">Losses:<span id="losses-text"></span></h2>
-
-    </div>
+ 
+    <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                  <h1 class="text-center">Cristal Collector Game</h1>
+                <p>You will be given a random number at the start of the game.</p> 
+                <p> There are four cristals bellow. By clicking on a crystal you will add a specific amount of points to your total score.</p> 
+                <p> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                <p> The value of each crystal is hidden from you until you click on it.</p>
+                <p> Each time when the game starts, the game will change the values of each crystal.</p>
+                <h2 class="card-title">Try to match this number</h2>
+                <div id="randomBox">
+                    <p id="randomNum"></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                  <h2 clas="score-wins">Wins:<span id="win-text"></span></h2>
+                <div id="randomBox">
+                    <p id="randomNum"></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                    <div class="score-count" >
+                        <h2 id="score-count"></h2>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h2 clas="score-losses">Losses:<span id="losses-text"></span></h2>
+                    <div id="randomBox">
+                        <p id="randomNum"></p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    
+  <div class="col-sm-12 text-center">
     <div id="crystal-box">
-      <button id="red-crystal">red crystal</button>
-      
+        <input id="red-crystal" type="image" src="assets/images/red.jpg" />
+        <input id="blue-crystal" type="image" src="assets/images/bluepink.jpg" />
+        <input id="yellow-crystal" type="image" src="assets/images/yellow.jpg" />
+        <input id="green-crystal" type="image" src="assets/images/grenn.jpg" />
     </div>
-
-    <div class="score-count" >
-      <h2 id="score-count"></h2>
-    </div>
-            
-              
-       <script src="./assets/javascript/game.js"></script>     
+  </div>
+  </div>
+  
+    <script src="./assets/javascript/game.js"></script>  
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>  
 </body>
 
 </html>
