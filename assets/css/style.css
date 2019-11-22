@@ -2,6 +2,27 @@ body {
     width: 100%;
 }
 
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+#yellow-crystal,
+#green-crystal ,
+#red-crystal,
+#blue-crystal{
+width: 100px;
+height: 100px;
+}
+
+.card-body {
+font-size: 15px;
+}
+} */
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+
 /* #title-box {
     background-color: peru;
     font-size: 220%;
